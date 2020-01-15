@@ -16,6 +16,12 @@
         "github-protocols": ["https", "git", "ssh"],
         "github-domains": ["github.com"]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pacid/FOSUserBundle"
+        }
+    ],
     "require": {
         "php": ">=5.6.0",
         "symfony/http-foundation": "^2.7|^3.0|^4.0",
